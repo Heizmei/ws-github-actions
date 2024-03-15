@@ -47,7 +47,8 @@ jobs:
     
   run-test:
     runs-on: ubuntu-latest
-      image: epitechcontent/epitest-docker: latest
+    container:
+      image: epitechcontent/epitest-docker:latest
     needs: [compile, coding-style]
     steps:
 

@@ -1,4 +1,4 @@
-name: chocolatine
+name: ci/cd
 
 on:
   push:
